@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MustDo</string>
+    <string name="today_tasks_widget_desc">View and complete today\'s tasks from your home screen.</string>
+    <string name="focus_quick_widget_desc">Quickly start a focus timer.</string>
+    <string name="streak_xp_widget_desc">Track your current streak and level progress.</string>
+    <string name="widget_today_tasks_label">Today\'s Tasks</string>
+    <string name="widget_focus_quick_label">Quick Focus</string>
+    <string name="widget_streak_xp_label">Streak &amp; Level</string>
+</resources>

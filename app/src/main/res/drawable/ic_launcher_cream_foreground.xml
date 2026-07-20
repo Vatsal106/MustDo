@@ -1,0 +1,20 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Premium minimal outer ring in Cream primary blue -->
+    <path
+        android:pathData="M54,54m-24,0a24,24 0,1 1,48 0a24,24 0,1 1,-48 0"
+        android:strokeWidth="5"
+        android:strokeColor="#3A6FF7"
+        android:fillColor="#00000000" />
+    <!-- Orange checkmark in the center -->
+    <path
+        android:pathData="M43,54 l7,7 l15,-15"
+        android:strokeWidth="6"
+        android:strokeColor="#FF8A3D"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+</vector>

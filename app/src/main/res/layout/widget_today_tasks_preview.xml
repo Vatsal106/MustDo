@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/widget_preview_bg_surface"
+    android:padding="16dp">
+
+    <!-- Header Row -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today's Tasks"
+            android:textStyle="bold"
+            android:textColor="#1C1B1F"
+            android:textSize="16sp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true" />
+
+        <!-- Count Badge -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:background="@drawable/widget_badge_bg"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="4dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+    <!-- Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E1E2EC"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Task List (Mock items) -->
+    <!-- Task Item 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/widget_item_bg"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="8dp"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="4dp">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_circle_outline"
+            android:tint="#6C63FF"
+            android:contentDescription="Complete" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Buy groceries"
+            android:textColor="#1C1B1F"
+            android:textSize="13sp"
+            android:textStyle="normal"
+            android:layout_marginStart="10dp"
+            android:maxLines="1"
+            android:ellipsize="end" />
+
+        <ImageView
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:src="@drawable/ic_flag_small"
+            android:tint="#EA580C"
+            android:layout_marginStart="6dp"
+            android:contentDescription="High Priority" />
+
+    </LinearLayout>
+
+    <!-- Task Item 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/widget_item_bg"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="8dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_circle_outline"
+            android:tint="#6B7280"
+            android:contentDescription="Complete" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Prepare presentation"
+            android:textColor="#1C1B1F"
+            android:textSize="13sp"
+            android:textStyle="normal"
+            android:layout_marginStart="10dp"
+            android:maxLines="1"
+            android:ellipsize="end" />
+
+    </LinearLayout>
+
+</LinearLayout>
